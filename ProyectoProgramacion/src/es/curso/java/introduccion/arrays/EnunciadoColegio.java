@@ -1,0 +1,246 @@
+package es.curso.java.introduccion.arrays;
+
+import java.util.Scanner;
+
+
+
+public class EnunciadoColegio {
+	
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+	        
+	        //Sirve para crear las filas que necesitemeos y las columnas los alumnos que necesitemos 
+
+	        System.out.print("I.Aulas: ");
+	        int filas = scanner.nextInt();
+	        
+	    
+			
+	        int[][] colegio = new int[filas][];	       
+	        for (int i = 0; i < filas; i++) {
+	            System.out.print("Alumnos Aula" + (i + 1) + ": ");
+	            int columnas = scanner.nextInt();
+
+	            colegio[i] = new int[columnas];
+
+
+	             for (int j = 0; j < columnas; j++) {
+	                System.out.print(" " + (i + 1) + " Aula " + (j + 1) + "Asiento: ");
+	                colegio[i][j] = scanner.nextInt();
+	            	
+	            }
+	             System.out.println("");+
+	             
+	             
+	        }
+	        System.out.println("==============================================================");
+	        
+	        
+	        scanner.close();
+	            }
+	    
+
+	    }
+	    
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
